@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    block-size: 100px;
+}
+.inicio{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+}
+nav img{
+inline-size: 150px;
+}
+
+li{
+    padding-left: 30px;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.join{
+    gap: 15px;
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.join img {
+    display: flex;
+    block-size: 20px;
+    inline-size: 20px;
+}
+
+.inicio{
+    display: flex;
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 100px;
+
+}
+.undo{
+    block-size: 20px;
+    inline-size: 20px;
+}
+.hero {
+    width: 500px;
+    height: 500px;
+}
+.undo1{
+    gap: 15px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    
+}
+.inicio1{
+    inline-size: 500px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-block: 30px;
+    justify-content: space-around;
+
+}
+.cards{
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+.cards img{
+    width: 200px;
+    height: 200px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;
+    background-color: black;
+}
+.secundaria{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d4d4d4;
+}
+h2{
+    margin-left: 30px;
+}
